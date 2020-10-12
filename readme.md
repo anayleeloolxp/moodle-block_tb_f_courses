@@ -1,4 +1,5 @@
 # Leeloo LXP Featured Courses Block
+This block allows admin to show select some courses and show them in the block, Like featured courses.
 
 Installation Instructions
 =========================
