@@ -49,8 +49,8 @@ class block_tb_f_courses_renderer extends plugin_renderer_base {
             $this->page->requires->js(new moodle_url($CFG->wwwroot . '/blocks/tb_f_courses/js/owl.carousel.js'));
             $this->page->requires->js(new moodle_url($CFG->wwwroot . '/blocks/tb_f_courses/js/owlslider.js'));
 
-            $this->page->requires->css(new moodle_url('https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css'));
-            $this->page->requires->css(new moodle_url('https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css'));
+            $this->page->requires->css(new moodle_url($CFG->wwwroot . '/blocks/tb_f_courses/css/owl.carousel.min.css'));
+            $this->page->requires->css(new moodle_url($CFG->wwwroot . '/blocks/tb_f_courses/css/owl.theme.default.min.css'));
 
         }
 
