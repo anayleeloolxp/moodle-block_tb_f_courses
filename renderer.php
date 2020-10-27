@@ -45,7 +45,7 @@ class block_tb_f_courses_renderer extends plugin_renderer_base {
         // LearningWorks.
 
         if($config->feature_showasslider == 1){
-            $this->page->requires->js(new moodle_url('https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js'));
+            $this->page->requires->js(new moodle_url($CFG->wwwroot . '/blocks/tb_f_courses/js/jquery.min.js'));
             $this->page->requires->js(new moodle_url($CFG->wwwroot . '/blocks/tb_f_courses/js/owl.carousel.js'));
             $this->page->requires->js(new moodle_url($CFG->wwwroot . '/blocks/tb_f_courses/js/owlslider.js'));
 
