@@ -40,6 +40,7 @@ class block_tb_f_courses_edit_form extends block_edit_form {
 
         $courses = get_courses();
         $availablecourseslist = array();
+        $attributes = array();
         foreach ($courses as $c) {
             $availablecourseslist[$c->id] = $c->shortname . ' : ' . $c->fullname;
         }
