@@ -72,7 +72,7 @@ class block_tb_f_courses extends block_base {
         $settingleeloolxp = $resposedata->data->feature_courses;
 
         if (empty($settingleeloolxp->feature_course_title)) {
-            $settingleeloolxp->feature_course_title = get_string('displayname', 'block_tb_f_courses');
+            @$settingleeloolxp->feature_course_title = get_string('displayname', 'block_tb_f_courses');
         }
         $this->title = $settingleeloolxp->feature_course_title;
 
