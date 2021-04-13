@@ -156,12 +156,4 @@ class block_tb_f_courses extends block_base {
     public function applicable_formats() {
         return array('all' => true);
     }
-
-    /**
-     * Get settings from Leeloo
-     */
-    public function cron() {
-        require_once($CFG->dirroot . '/blocks/tb_f_courses/lib.php');
-        updateconff_courses();
-    }
 }
